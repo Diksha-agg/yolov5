@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 6
+names: ['container', 'house', 'pole', 'pole_lines', 'tree', 'vehicle']
+
+roboflow:
+  workspace: housing-aerial
+  project: -house-views
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/housing-aerial/-house-views/dataset/1
